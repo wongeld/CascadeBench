@@ -1,0 +1,22 @@
+{
+  "false_consensus_rate": 0.0,
+  "cascade_depth": 1,
+  "time_to_consensus": 3,
+  "error_amplification_factor": 0.0,
+  "influence_scores": {
+    "A2": 0.230293,
+    "A1": 0.290928,
+    "A3": 0.207352,
+    "A4": 0.271428
+  },
+  "belief_stability": {
+    "A1": 0.9741,
+    "A2": 0.9668,
+    "A3": 0.9663,
+    "A4": 0.9872,
+    "A5": 1.0
+  },
+  "num_belief_updates": 60,
+  "total_messages": 578,
+  "num_injections": 3
+}

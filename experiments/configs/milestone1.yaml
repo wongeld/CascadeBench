@@ -1,0 +1,33 @@
+# Milestone 1 Experiment Configuration
+# 3 agents, ring topology, 5 rounds, 1 injected false claim via flip_sentence
+# Run with: python experiments/run_experiment.py --config experiments/configs/milestone1.yaml --model dummy
+
+experiment_id: exp_milestone1
+seed: 42
+num_agents: 5
+topology: ring
+num_rounds: 5
+model: dummy          # change to: openrouter/meta-llama/llama-3.1-8b-instruct:free
+temperature: 0.2
+memory_window: 10
+retrieval_top_k: 3
+belief_update_alpha: 0.4
+message_passing_mode: synchronous
+
+# Target claim (ground truth: this is TRUE)
+target_claim: "Vitamin D supplementation reduces the risk of acute respiratory infections."
+
+# Error injection: flip sentence 
+error_injections:
+  - type: flip_sentence
+    doc_id: D2
+    target_sentence_idx: 0
+    timestep: 0
+  - type: flip_sentence
+    doc_id: D2
+    target_sentence_idx: 1
+    timestep: 0
+  - type: flip_sentence
+    doc_id: D2
+    target_sentence_idx: 2
+    timestep: 0

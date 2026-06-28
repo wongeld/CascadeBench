@@ -1,0 +1,35 @@
+[
+  {
+    "injection_type": "flip_sentence",
+    "doc_id": "D2",
+    "timestep": 0,
+    "original": "Vitamin D supplementation significantly reduces the risk of acute respiratory infections. A meta-analysis of 25 randomized controlled trials found a 12% reduction in infection risk. The protective effect is strongest in individuals who are severely deficient.",
+    "corrupted": "It is false that vitamin D supplementation significantly reduces the risk of acute respiratory infections. A meta-analysis of 25 randomized controlled trials found a 12% reduction in infection risk. The protective effect is strongest in individuals who are severely deficient.",
+    "metadata": {
+      "target_sentence_idx": 0,
+      "timestep": 0
+    }
+  },
+  {
+    "injection_type": "flip_sentence",
+    "doc_id": "D2",
+    "timestep": 0,
+    "original": "It is false that vitamin D supplementation significantly reduces the risk of acute respiratory infections. A meta-analysis of 25 randomized controlled trials found a 12% reduction in infection risk. The protective effect is strongest in individuals who are severely deficient.",
+    "corrupted": "It is false that vitamin D supplementation significantly reduces the risk of acute respiratory infections. It is false that a meta-analysis of 25 randomized controlled trials found a 12% reduction in infection risk. The protective effect is strongest in individuals who are severely deficient.",
+    "metadata": {
+      "target_sentence_idx": 1,
+      "timestep": 0
+    }
+  },
+  {
+    "injection_type": "flip_sentence",
+    "doc_id": "D2",
+    "timestep": 0,
+    "original": "It is false that vitamin D supplementation significantly reduces the risk of acute respiratory infections. It is false that a meta-analysis of 25 randomized controlled trials found a 12% reduction in infection risk. The protective effect is strongest in individuals who are severely deficient.",
+    "corrupted": "It is false that vitamin D supplementation significantly reduces the risk of acute respiratory infections. It is false that a meta-analysis of 25 randomized controlled trials found a 12% reduction in infection risk. The protective effect is not strongest in individuals who are severely deficient.",
+    "metadata": {
+      "target_sentence_idx": 2,
+      "timestep": 0
+    }
+  }
+]

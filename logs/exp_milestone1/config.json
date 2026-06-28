@@ -1,0 +1,35 @@
+{
+  "experiment_id": "exp_milestone1",
+  "seed": 42,
+  "num_agents": 5,
+  "topology": "ring",
+  "num_rounds": 5,
+  "model": "groq/compound",
+  "temperature": 0.2,
+  "memory_window": 10,
+  "retrieval_top_k": 3,
+  "belief_update_alpha": 0.4,
+  "message_passing_mode": "synchronous",
+  "error_injections": [
+    {
+      "type": "flip_sentence",
+      "doc_id": "D2",
+      "target_sentence_idx": 0,
+      "timestep": 0
+    },
+    {
+      "type": "flip_sentence",
+      "doc_id": "D2",
+      "target_sentence_idx": 1,
+      "timestep": 0
+    },
+    {
+      "type": "flip_sentence",
+      "doc_id": "D2",
+      "target_sentence_idx": 2,
+      "timestep": 0
+    }
+  ],
+  "target_claim": "Vitamin D supplementation reduces the risk of acute respiratory infections.",
+  "agent_ids": null
+}

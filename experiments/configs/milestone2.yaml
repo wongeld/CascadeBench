@@ -1,0 +1,27 @@
+# Milestone 1 Experiment Configuration
+# 3 agents, ring topology, 5 rounds, 1 injected false claim via flip_sentence
+# Run with: python experiments/run_experiment.py --config experiments/configs/milestone2.yaml --model nvidia/mistralai/mistral-medium-3.5-128b
+
+experiment_id: exp_milestone2_nvidia
+seed: 42
+num_agents: 3
+topology: ring
+num_rounds: 5
+model: nvidia/mistralai/mistral-medium-3.5-128b  # Changed to NVIDIA
+temperature: 0.7  # NVIDIA default is 0.70, matches your sample
+memory_window: 10
+retrieval_top_k: 3
+belief_update_alpha: 0.4
+message_passing_mode: synchronous
+
+# Target claim (ground truth: this is TRUE)
+target_claim: "Vitamin D supplementation reduces the risk of acute respiratory infections."
+
+# Error injection: flip sentence 0 of D2
+# D2 normally says: "Vitamin D supplementation significantly reduces the risk of acute respiratory infections."
+# After flip: "Vitamin D supplementation does not significantly reduce the risk of acute respiratory infections."
+error_injections:
+  - type: flip_sentence
+    doc_id: D2
+    target_sentence_idx: 0
+    timestep: 0

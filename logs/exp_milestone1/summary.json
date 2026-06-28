@@ -1,0 +1,50 @@
+{
+  "experiment_id": "exp_milestone1",
+  "config_summary": {
+    "topology": "ring",
+    "num_agents": 5,
+    "num_rounds": 5,
+    "model": "groq/compound",
+    "seed": 42
+  },
+  "final_beliefs": {
+    "A1": {
+      "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+    },
+    "A2": {
+      "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+    },
+    "A3": {
+      "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+    },
+    "A4": {
+      "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+    },
+    "A5": {
+      "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+    }
+  },
+  "metrics": {
+    "false_consensus_rate": 0.0,
+    "cascade_depth": 1,
+    "time_to_consensus": 3,
+    "error_amplification_factor": 0.0,
+    "influence_scores": {
+      "A2": 0.230293,
+      "A1": 0.290928,
+      "A3": 0.207352,
+      "A4": 0.271428
+    },
+    "belief_stability": {
+      "A1": 0.9741,
+      "A2": 0.9668,
+      "A3": 0.9663,
+      "A4": 0.9872,
+      "A5": 1.0
+    },
+    "num_belief_updates": 60,
+    "total_messages": 578,
+    "num_injections": 3
+  },
+  "total_rounds": 5
+}

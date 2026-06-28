@@ -1,0 +1,162 @@
+{
+  "A1": [
+    {
+      "round": 1,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 2,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 3,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 4,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 5,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    }
+  ],
+  "A2": [
+    {
+      "round": 1,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 2,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 3,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 4,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 5,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    }
+  ],
+  "A3": [
+    {
+      "round": 1,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 2,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 3,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 4,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 5,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    }
+  ],
+  "A4": [
+    {
+      "round": 1,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 2,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 3,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 4,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 5,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    }
+  ],
+  "A5": [
+    {
+      "round": 1,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 2,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 3,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 4,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    },
+    {
+      "round": 5,
+      "beliefs": {
+        "Vitamin D supplementation reduces the risk of acute respiratory infections.": 0.5
+      }
+    }
+  ]
+}
